@@ -1,0 +1,4 @@
+-Jeœli wyrzuca: "JAVA_HOME does not point to the JDK."
+ Rada: To solve this problem add tools.jar file in window->preferences->ant-> runtime .
+ 
+ 
