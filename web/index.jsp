@@ -60,10 +60,10 @@ $(document).ready(function(){
     <nav>
      <ul>
 	    <li><a class="active" href="#">Strona główna</a></li>
-	    <li><a  href="#">Moje trasy</a></li>
-	    <li><a class="active" href="#">Galeria</a></li>
-	    <li><a class="active" href="#">Forum</a></li>
-	    <li><a class="active" href="#">Ustawienia</a></li>
+	    <li><a href="#">Moje trasy</a></li>
+	    <li><a href="#">Galeria</a></li>
+	    <li><a href="#">Forum</a></li>
+	    <li><a href="#">Ustawienia</a></li>
   	</ul>
     </nav>
     <section id="main-image" class="drop-shadow lifted">
@@ -127,11 +127,15 @@ $(document).ready(function(){
         </aside>
      
     </div>
+
+
+  </div> <!-- wrapper -->
+
      <footer>
        <p class="left">Copyright &copy; 2011. <a href="http://www.webnote.pl">Webnote.pl</a></p>
         <nav class="right">
           <ul>
-            <li onClick="glowna();">Strona główna</li>
+            <li><a href="#">Strona główna</a></li>
             <li><a href="#">Historia</a></li>
             <li><a href="#">Katalog Firm</a></li>
             <li><a href="#">Forum</a></li>
@@ -139,8 +143,6 @@ $(document).ready(function(){
           </ul>
         </nav>
       </footer>
-
-  </div> <!-- wrapper -->
 
 <script type="text/javascript">
   $(document).ready(function(){

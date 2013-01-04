@@ -1,6 +1,6 @@
 
 body{
-  background: #50763b url('../img/background.png') repeat-x;
+  background: rgba(239, 239, 239, 1) url('../img/background.png') repeat-x;
   width: 100%;
   font: 12px/20px Verdana, Arial, sans-serif;
   color:#fff;
@@ -132,13 +132,11 @@ footer {
   clear:both;
   margin-top:20px;
   padding:15px;
-  background: #84BA4E;
+  background-color: rgba(195, 193, 194, 1);
   display: block;
   overflow: hidden;
-  -moz-border-radius: 5px;
-  border-radius: 5px;
 }
 
-footer nav ul {margin:5px; padding:0;}
-footer nav ul li{float:right; margin-right:20px; position:relative; list-style:none;}
-footer nav ul li a{text-decoration:none; color:inherit;}
+footer nav ul {margin-left:20px; padding:0; }
+footer nav ul li{float:right; margin-right:20px;  position:relativ; list-style:none; }
+footer nav ul li a{text-decoration:none; color:inherit; }
