@@ -11,7 +11,7 @@
 </managed-bean>
 
 <navigation-rule>
-		<from-view-id>/web/index.jsp</from-view-id>
+   <from-view-id>/web/index.jsp</from-view-id>
 </navigation-rule>
 
 
