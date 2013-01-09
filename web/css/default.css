@@ -6,7 +6,8 @@ body{
   color:#fff;
 }
 
-#wrapper { 
+#wrapper {
+  color:#188;
   margin: 0 auto;
   width: 960px;
   padding:0 10px;
@@ -15,7 +16,7 @@ body{
 }
 
 #logo{
-  background: url('../img/logo.png') no-repeat;
+  background: url('../img/logo 2.png') no-repeat;
   height:60px; 
   width: 220px;
   display: block;
@@ -67,23 +68,11 @@ header nav ul li a.active{
 header nav ul li a:hover{color:#764524;}
 
 header section#main-image {
-  background: url('../img/foto.jpg') no-repeat;
-  height:206px; 
-  width: 930px;
-  display: block;
-  border: 5px solid #fff;
-  margin:0 auto;
-  -webkit-box-shadow:0 5px 6px rgba(0, 0, 0, 0.25);
-  -moz-box-shadow:0 5px 6px rgba(0, 0, 0, 0.25);
-  box-shadow:0 5px 6px rgba(0, 0, 0, 0.25);
+
 }
 
 section#main-image figure {
-  float:right;
-  height: 166px;
-  padding: 40px 0 0 60px;
-  width: 250px;
-  background-color:rgba(0, 0, 0, 0.5);
+
 }
 
 section#main-image figure h2{
@@ -92,7 +81,7 @@ section#main-image figure h2{
   font-size: 28px;
   line-height: 38px;
 }
-section#main-image figure h2.pirst{margin-left:5px;}
+section#main-image figure h2.first{margin-left:5px;}
 section#main-image figure h2.second{margin-left:40px;}
 section#main-image figure h2.third{margin-left:80px;}
 
@@ -100,14 +89,14 @@ section#main-image figure h2.third{margin-left:80px;}
 #content-wrapper strong{color:#f9d467;}
 #content-wrapper h2{
   font-family: 'GraublauWebBold', sans-serif;
-  color:#fff;
+  color:#188;
   font-size: 24px;
   margin-bottom: 30px;
   margin-top: 20px;
   text-shadow:0 0 1px transparent;
 }
 
-#content {float:left;width:620px;}
+#content {float:left;width:520px;}
 article {padding-bottom: 30px;}
 
 #content section.news ul{margin:0; padding:0;overflow: hidden;}
@@ -135,8 +124,61 @@ footer {
   background-color: rgba(195, 193, 194, 1);
   display: block;
   overflow: hidden;
+  width: 100%;
+  height: 50px;
 }
 
 footer nav ul {margin-left:20px; padding:0; }
 footer nav ul li{float:right; margin-right:20px;  position:relativ; list-style:none; }
 footer nav ul li a{text-decoration:none; color:inherit; }
+//-------------------------------------------------------------
+.form fieldset{
+	border: 0;
+}
+.form {
+    width:60%;
+    margin:20px;
+    font: 11px 'Segoe UI', sans-serif;
+    color:#232323;
+}
+
+.form .nl {
+    position:relative;
+    margin-bottom:15px;
+}
+
+.form label {
+    display:block;
+    font:bold 14px Georgia, sans;
+    color:#333;
+    margin-bottom:3px;
+    height:20px;
+}
+
+input[type="text"],
+input[type="email"],
+textarea {
+   border:1px solid #999;
+   background:#fff;
+   background-position:98% 3px;
+   -moz-transition:0.5s;
+   -webkit-transition:0.5s;
+   -webkit-box-sizing: border-box; 
+   -moz-box-sizing: border-box;
+   box-sizing: border-box;
+   padding:4px;
+   transition:0.5s;   
+    border-radius:3px;
+    
+}
+
+textarea {
+  height:150px;
+  resize:vertical;
+}
+
+input[type="radio"], input[type="checkbox"] {
+    display:inline-block;
+    vertical-align:middle;
+    margin-right:10px;
+}
