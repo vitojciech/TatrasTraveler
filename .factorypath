@@ -1,0 +1,6 @@
+<factorypath>
+    <factorypathentry kind="PLUGIN" id="org.eclipse.jst.ws.annotations.core" enabled="true" runInBatchMode="false"/>
+    <factorypathentry kind="WKSPJAR" id="/TatrasTraveler/WEB-INF/lib/jsf-api.jar" enabled="false" runInBatchMode="false"/>
+    <factorypathentry kind="WKSPJAR" id="/TatrasTraveler/WEB-INF/lib/asm-3.1.jar" enabled="true" runInBatchMode="false"/>
+    <factorypathentry kind="WKSPJAR" id="/TatrasTraveler/WEB-INF/lib/javax.faces-2.1.17.jar" enabled="false" runInBatchMode="false"/>
+</factorypath>
