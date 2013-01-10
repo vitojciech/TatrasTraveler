@@ -9,6 +9,7 @@
 
 <!-- CSS-y -->
 <link rel="stylesheet" href="./js/jquery-ui/css/smoothness/jquery-ui-1.9.2.custom.css" />
+<link rel="stylesheet" href="./css/default.css" />
 
 <!--  Java script -->
 <script src="./js/jquery-ui/js/jquery-1.8.3.js" ></script>
@@ -17,10 +18,5 @@
 <script src="./js/jquery-ui.js"></script>
 
  <script>    
-    $(function() {
-        $( "input[type=submit],input[type=text] a, button" )
-            .button().click(function( event ) {
-                event.preventDefault();
-            });
-    });
+
 </script>

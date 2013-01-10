@@ -3,19 +3,19 @@ package app;
 public class RegisterBean {
 
 	/** pole na imie */
-	String name = "dupa";
+	String name = "";
 	
 	/** pole na nazwisko */
-	String surname = "asasas";
+	String surname = "";
 	
 	/** pole na haslo*/
-	String password="dziku";
+	String password="";
 	
 	/** pole na email */
-	String email = "wojtek@akademik.pl";
+	String email = "";
 	
 	/** pole na wiek */
-	String age = "ssss";
+	String age = "";
 	
 	//Imie
 	public String getName() {
@@ -61,9 +61,6 @@ public class RegisterBean {
 	public void setEmail(String email) {
 		this.email = email;
 	}
-	
-	static public String register() {
-		return "success";
-	}
+
 
 }
