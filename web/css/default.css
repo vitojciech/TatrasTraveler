@@ -1,39 +1,37 @@
-
-/* style dla menu */
-.menu {
-	background: url(img/bg-footer-noise.png) repeat-x 0 bottom #1B1B1B;"
-	display: block;
-	color: white;
-	font: 15px/22.5px "Helvetica Neue", HelveticaNeue, Helvetica, Arial, sans-serif;
-	width:100%;
-}
-
-/* Style dla stopki */
-.footer {
-	background: url(../img/bg-footer-noise.png) repeat-x 0 bottom #1B1B1B;" 
-	color: white;
-	display: block;
-	font: 15px/22.5px "Helvetica Neue", HelveticaNeue, Helvetica, Arial, sans-serif;
-	font-size: 15px;
-	text-align:center;
-	float:bottom;
-}
-
 /* style dla strony */
 .body {
-	background: rgb(255,255,255); /* Old browsers */
-	background: -moz-linear-gradient(-45deg,  rgba(255,255,255,1) 0%, rgba(229,229,229,1) 100%); /* FF3.6+ */
-	background: -webkit-gradient(linear, left top, right bottom, color-stop(0%,rgba(255,255,255,1)), color-stop(100%,rgba(229,229,229,1))); /* Chrome,Safari4+ */
-	background: -webkit-linear-gradient(-45deg,  rgba(255,255,255,1) 0%,rgba(229,229,229,1) 100%); /* Chrome10+,Safari5.1+ */
-	background: -o-linear-gradient(-45deg,  rgba(255,255,255,1) 0%,rgba(229,229,229,1) 100%); /* Opera 11.10+ */
-	background: -ms-linear-gradient(-45deg,  rgba(255,255,255,1) 0%,rgba(229,229,229,1) 100%); /* IE10+ */
-	background: linear-gradient(135deg,  rgba(255,255,255,1) 0%,rgba(229,229,229,1) 100%); /* W3C */
-	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#e5e5e5',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+	margin-top: 25px;
+	text-align:center;	
+	background: #efefef; 
+	padding-left:auto;
+padding-right:auto;
 }
 
 .button {
 	border-radius:5px;
-	height:20px;
+	border: 1px solid #b3b3b3;
+	height:15px;
 	display:inline-block;
 	width:200px;
+}
+
+.registerField {
+	text-align:left; 
+	display:inline-block; 
+	width:auto;
+	margin-bottom: 5px;
+	margin-left:15px;
+	font: 14px/22.5px "Helvetica Neue", HelveticaNeue, Helvetica, Arial, sans-serif;
+}
+
+
+.contener {
+	margin-left:auto;
+	margin-right:auto;
+	width:60%;
+	border:1px solid #b3b3b3;
+	background: white;
+	border-radius:10px;
+	margin: 40px 10px 10px 10px;
+	padding: 10px 10px 10px 10px;
 }

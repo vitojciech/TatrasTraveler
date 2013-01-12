@@ -13,10 +13,7 @@ public class RegisterBean {
 	
 	/** pole na email */
 	String email = "";
-	
-	/** pole na wiek */
-	String age = "";
-	
+
 	//Imie
 	public String getName() {
 		return name;
@@ -43,16 +40,7 @@ public class RegisterBean {
 	public void setPassword(String password) {
 		this.password = password;
 	}
-	
-	//Wiek
-	public String getAge() {
-		return age;
-	}
 
-	public void setAge(String age) {
-		this.age = age;
-	}
-	
 	//Email
 	public String getEmail() {
 		return email;
