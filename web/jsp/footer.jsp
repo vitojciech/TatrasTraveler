@@ -1,7 +1,7 @@
 <%@include file="headers.jsp" %>
-<link rel="stylesheet" href="./css/footercss" />
+<link rel="stylesheet" href="./css/footer.css" />
 
-<footer class="footer ui-corner-all footer-site-links ui-corner-all" >
+<footer class="footer footer-site-links" >
 	<div>
 		 <h:outputText value="#{msg.app_name}" />
 	</div>

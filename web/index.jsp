@@ -15,6 +15,26 @@
     };  
 
     $(document).ready(function() {
+     		
+    		   $('[id$="nameIconField"]').qtip({
+    		   content: 'Wpisz swoje nazwisko kiepie',
+    		   show: 'mouseover',
+    		   hide: 'mouseout',
+    			 style: {
+    	                  border: {
+    	                     radius: 4
+    	                  },
+    	                  'font-size': 11 ,
+    	                  padding: 10, 
+    	                  textAlign: 'center',
+    	                  tip: true, // Give it a speech bubble tip with automatic corner detection
+    	                  name: 'dark' // Style it according to the preset 'cream' style
+    	                  
+    			 }
+    	
+    		})	
+    		
+    		
     	
     	 $('[id$="errorNameFieldID"]').onformchange(function() {
        	  alert('Handler for .change() called.');
@@ -24,9 +44,7 @@
           	  alert('Handler for .change() called.');
           	});
     	 
-    });
-        
-   
+    });  
     
 </script>
 
@@ -46,7 +64,7 @@
 
 
 <!--  formularz -->
-<div id="forms" class="ui-corner-all" style="background:white; width:30%; border: 1px solid #b3b3b3; text-align:center;" >
+<div id="forms" class="ui-corner-all" style="background:white; width:50%; border: 1px solid #b3b3b3; text-align:center;" >
 <br/>
 
 
@@ -65,7 +83,10 @@
  		         <f:validateLongRange maximum="25" minimum="2"/> 		         
  		         
  		</h:inputText> 
- 		&nbsp;<h:outputText value="#{msg.index_name_field}" /><br/>	
+ 		&nbsp;<h:outputText value="#{msg.index_name_field}" />
+ 	<span id="nameIconField" class="ui-icon ui-icon-info" style="width:20px;float: left; margin-right: .3em;"></span>
+ 		
+ 		<br/>	
  	</div>
  	
  	
